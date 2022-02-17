@@ -21,7 +21,7 @@
 <style>
   .root {
     color: white;
-    background-color: red;
+    background: linear-gradient(to right, #400 0, #800 50%, #400 100%);
     min-height: 100vh;
   }
 </style>

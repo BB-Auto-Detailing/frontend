@@ -4,19 +4,23 @@
 
 <div class="polish">
   <h2 class="subtitle">Poliranje</h2>
-  Sed aspernatur recusandae odit. Accusamus recusandae neque quibusdam. Delectus
-  et sint ipsum sunt. Voluptates qui tempore ullam nulla ipsam voluptatem soluta.
-  Corrupti aut voluptatum laboriosam voluptas ducimus soluta. Libero porro sit aut
-  provident neque. Neque voluptas voluptates ea non quia aut beatae. Et quis ab atque
-  expedita rerum architecto veniam maxime. Iste amet illum eum molestiae. Voluptas
-  adipisci cupiditate dicta neque et. Atque est accusamus iste praesentium. Aspernatur
-  autem ratione quis in quo voluptas voluptas et. Suscipit aut cumque et. Consequatur
-  quia qui aliquam vel sed. Assumenda odio natus pariatur ipsum consequuntur. Sunt
-  sed quia rerum molestiae sequi odio et saepe. Nobis et magnam nihil suscipit eligendi
-  placeat beatae. Qui in impedit temporibus. Nisi rerum exercitationem velit omnis
-  et nihil. Deserunt expedita dolorem aut aut. Quos rem incidunt dolorem consectetur
-  et illum et. Maiores totam sint quas ea. Vero consequuntur repellat esse ab quae
-  harum. Quia asperiores dolorum maxime debitis distinctio voluptas illum aspernatur.
+  <div class="description">
+    Sed aspernatur recusandae odit. Accusamus recusandae neque quibusdam.
+    Delectus et sint ipsum sunt. Voluptates qui tempore ullam nulla ipsam
+    voluptatem soluta. Corrupti aut voluptatum laboriosam voluptas ducimus
+    soluta. Libero porro sit aut provident neque. Neque voluptas voluptates ea
+    non quia aut beatae. Et quis ab atque expedita rerum architecto veniam
+    maxime. Iste amet illum eum molestiae. Voluptas adipisci cupiditate dicta
+    neque et. Atque est accusamus iste praesentium. Aspernatur autem ratione
+    quis in quo voluptas voluptas et. Suscipit aut cumque et. Consequatur quia
+    qui aliquam vel sed. Assumenda odio natus pariatur ipsum consequuntur. Sunt
+    sed quia rerum molestiae sequi odio et saepe. Nobis et magnam nihil suscipit
+    eligendi placeat beatae. Qui in impedit temporibus. Nisi rerum
+    exercitationem velit omnis et nihil. Deserunt expedita dolorem aut aut. Quos
+    rem incidunt dolorem consectetur et illum et. Maiores totam sint quas ea.
+    Vero consequuntur repellat esse ab quae harum. Quia asperiores dolorum
+    maxime debitis distinctio voluptas illum aspernatur.
+  </div>
   <div class="packet">
     <h2>Osnovni paket 100/130/150</h2>
     <div class="details">
@@ -62,10 +66,15 @@
 <style>
   .polish {
     padding: 50px;
+    text-align: justify;
   }
 
   .subtitle {
     text-align: center;
+  }
+
+  .description {
+    text-align: justify;
   }
 
   .packet {
@@ -91,6 +100,25 @@
     align-items: center;
     justify-content: center;
     font-size: 4em;
+    margin-left: 20px;
+  }
+
+  @media only screen and (max-width: 1020px) {
+    .right {
+      color: white;
+      background-color: red;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2em;
+      margin-left: 20px;
+    }
+
+    .polish {
+      padding: 50px;
+      text-align: left;
+    }
   }
 
   .bottles {
